@@ -1,18 +1,18 @@
-#Project chess brute force
-##Description
-###Program input:
+# Project chess brute force
+## Description
+### Program input:
 - nothing -> starts from a standard starting position chess board
 - a fen -> describes the position to start
 - a list of moves in algebraic form -> starts from a standard starting position chess board, plays these as fixed moves
 
-###How it works:
+### How it works:
 Starting from the position given as input, it creates a tree of all possible movements, then tracksback to decide if the initial position was a win, a draw or a loss
 Grab a LONG book to wait for the program to run ;-)
 
-###Next steps: 
+### Next steps: 
 Not sure if there will be any
 
-##Initial ideas:
+## Initial ideas:
 
 Fazer uma arvore com todas as jogadas possiveis.
 
