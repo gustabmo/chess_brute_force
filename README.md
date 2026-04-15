@@ -2,11 +2,11 @@
 ## Description
 ### Program input:
 - nothing -> starts from a standard starting position chess board
-- a fen -> describes the position to start
-- a list of moves in algebraic form -> starts from a standard starting position chess board, plays these as fixed moves
+- a fen -> describes the starting position
+- a list of moves in algebraic form -> starts from a standard starting position chess board, then plays these as fixed moves
 
 ### How it works:
-Starting from the position given as input, it creates a tree of all possible movements, then tracksback to decide if the initial position was a win, a draw or a loss
+Starting from the position given as input, it creates a tree of all possible movements, then backtracks to decide if the initial position was a win, a draw or a loss
 Grab a LONG book to wait for the program to run ;-)
 
 ### Next steps: 
